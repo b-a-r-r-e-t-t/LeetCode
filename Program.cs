@@ -4,6 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        LC_28 lC_28 = new();
+        Console.WriteLine(lC_28.StrStr("mississippi", "issip"));
         //LC_58 lC_58 = new();
         //Console.WriteLine(lC_58.LengthOfLastWord("HelloWorld  "));
 
